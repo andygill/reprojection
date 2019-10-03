@@ -17,7 +17,8 @@ cabal-version:       >=1.10
 
 executable reprojection
   main-is:             Main.hs
-  -- other-modules:       
+  other-modules:       Linear.Euler
+  hs-source-dirs:      ., src
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.14,
                        optparse-applicative >= 0.13 && < 0.16,
